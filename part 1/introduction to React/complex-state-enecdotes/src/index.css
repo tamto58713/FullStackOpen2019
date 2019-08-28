@@ -1,0 +1,33 @@
+.body {
+    margin: 10px;
+}
+.container-anecdote {
+    height: 5.5em;
+}
+.anecdote {
+    border: solid #ddd 1px;
+    width: 90%;
+    padding-left: 15px;
+    line-height: 1.5em;
+    position: absolute;
+}
+.anecdote .content {
+    font-family: 'Fira Code', sans-serif;
+}
+.id {
+    color: #00f;
+}
+.anecdote .author {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: italic;
+}
+.amout-votes {
+    margin-top: 0.5em;
+}
+
+.anecdote-most-votes {
+    margin-top: 1em;
+}
+.btn-primary {
+    width: 100px;
+}
