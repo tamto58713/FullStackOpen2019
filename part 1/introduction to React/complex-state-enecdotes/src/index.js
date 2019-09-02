@@ -98,7 +98,9 @@ const App = (props) => {
                 </div>
                 <div className="amout-votes">
                     <code>
-                        Votes: { votes[listAnecdotes[checked].id] }
+                        <em>
+                            Votes: { votes[listAnecdotes[checked].id] }
+                        </em>
                     </code>   
                 </div>
                 <button className="btn btn-primary mr-1" onClick={onVoteAnecdote}>Vote</button>
@@ -116,7 +118,9 @@ const App = (props) => {
                 </div>
                 <div className="amout-votes">
                     <code>
-                        Votes: { votes[getAnecdoteMostVote().id] }
+                        <em>
+                            Votes: { votes[getAnecdoteMostVote().id] }
+                        </em>
                     </code>
                 </div>
             </div>
